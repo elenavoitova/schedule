@@ -7,6 +7,10 @@ body {
   color: #61dafb;
 }
 
+.App {
+  overflow-x: hidden;
+}
+
 .App-container {
   padding: 10px 200px;
   display: flex;
