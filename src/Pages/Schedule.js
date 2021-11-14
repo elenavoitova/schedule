@@ -21,10 +21,8 @@ function Schedule() {
 
   return (
     <>
-      <header className="App-header"></header>
-      <main className="App-container">
-        <Ghost/>
-        {
+      <header className="App-header">
+      {
           group && <h1>Розклад (група {group})</h1>
         }
         {
@@ -56,6 +54,9 @@ function Schedule() {
           </label>
         </div>
         </form>
+      </header>
+      <main className="App-container">
+        <Ghost/>
         {group === '1' && 
           schedule1.map((list, index) => {
             return (

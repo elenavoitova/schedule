@@ -1,5 +1,6 @@
-.App {
+body {
   text-align: center;
+  background-image: linear-gradient(to right top, #a2c3e7, #a5cce8, #abd4e7, #b5dce7, #c2e3e7, #c0e7e9, #bfeceb, #bef0ec, #abf3ed, #96f6ef, #7ef8f0, #5ffbf1);
 }
 
 .App-link {
@@ -13,25 +14,21 @@
   align-content: flex-end;
   align-items: stretch;
   justify-content: flex-start;
-  min-height: 100vh;
   position: relative;
   box-sizing: border-box;
-
-  background-image: linear-gradient(to right top, #a2c3e7, #a5cce8, #abd4e7, #b5dce7, #c2e3e7, #c0e7e9, #bfeceb, #bef0ec, #abf3ed, #96f6ef, #7ef8f0, #5ffbf1);
 }
 
 
-.App-container h1 {
-  position: absolute;
-  left: 40%;
-  top: 4%
+.App-header {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 80%;
+  margin-left: 30%;
 }
 
 .select-group{
-  position: absolute;
-    top: 8%;
-    right: 20%;
-    display: inline-flex;
+  display: inline-flex;
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,12 +39,14 @@
     align-content: center;
   }
 
-  .App-container h1 {
-    position: initial;
-    font-size: 24px;
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    margin-left: 0;
   }
 
-  .select-group{
-    position: initial;
+  .App-container h1 {
+    font-size: 24px;
   }
 } 
