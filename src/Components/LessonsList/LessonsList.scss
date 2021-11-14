@@ -1,0 +1,96 @@
+.lesson-list {
+    width: 280px;
+    //min-height: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+    //-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    //-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    //box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    //background-color: #fff;
+    //background:linear-gradient(45deg, #E80A89 0%, #F15B2A);
+}
+
+.lesson-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background: linear-gradient(45deg, #E80A89 0%, #6d83ef 100%);
+    filter: drop-shadow(0 0 1mm rgba(89, 88, 89, 0.653));
+
+
+     &.active{
+        background: linear-gradient(45deg, #E80A89, #6d83ef,#E80A89, #6d83ef,#E80A89);
+         background-size: 400% 400%;
+         -webkit-animation: Gradient 10s ease infinite;
+         -moz-animation: Gradient 10s ease infinite;
+         animation: Gradient 10s ease infinite;
+     }
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+    50% {
+    background-position: 100% 50%
+    }
+    100% {
+    background-position: 0% 50%
+    }
+    }
+     
+    @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+    50% {
+    background-position: 100% 50%
+    }
+    100% {
+    background-position: 0% 50%
+    }
+    }
+     
+    @keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+    50% {
+    background-position: 100% 50%
+    }
+    100% {
+    background-position: 0% 50%
+    }
+    }
+
+.lesson-item {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 50px;
+    margin: 5px 1px;
+    text-align: left;
+    font-size: 14px;
+    background-color: #fffc;
+    -webkit-box-shadow: 0px 0px 20px 2px #e80a8898;
+    -moz-box-shadow: 0px 0px 20px 2px #e80a8898;
+    box-shadow: inset 0px 0px 10px 2px #c7c7c7;
+}
+
+.lesson-name {
+    font-weight: bolder;
+    //filter: drop-shadow(1px 1px 1px rgba(156, 155, 156, 0.653));
+}
+
+.lesson-teacher {
+    font-size: 14px;
+}
+
+.lesson-link {
+    color: #00f;
+    //filter: drop-shadow(1px 1px 1px rgba(89, 88, 89, 0.653));
+}
