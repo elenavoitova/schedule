@@ -36,20 +36,22 @@
 
 @media screen and (max-width: 1000px) {
   .App-container {
-    padding: 100px 200px;
+    padding: 100px 0;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
   }
 
   .App-container h1 {
     position: absolute;
-    left: 25%;
+    left: 38%;
     top: 15px;
+    font-size: 24px;
   }
 
   .select-group{
     position: absolute;
       top: 70px;
-      right: 40%;
+      right: 35%;
   }
 } 

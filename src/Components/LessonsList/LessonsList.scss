@@ -92,3 +92,13 @@
     color: #00f;
     //filter: drop-shadow(1px 1px 1px rgba(89, 88, 89, 0.653));
 }
+
+@media screen and (max-width: 1000px) {
+    .lesson-list {
+        margin-top: 15px;
+    }
+
+    .lesson-item {
+        margin: 10px 1px;
+    }
+}
