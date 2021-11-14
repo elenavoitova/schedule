@@ -17,7 +17,7 @@
   position: relative;
   box-sizing: border-box;
 
-  background-image: linear-gradient(to right top, #5ffbf1, #46eefa, #41dfff, #52cffe, #69bff8, #69bff8, #69bff8, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right top, #a2c3e7, #a5cce8, #abd4e7, #b5dce7, #c2e3e7, #c0e7e9, #bfeceb, #bef0ec, #abf3ed, #96f6ef, #7ef8f0, #5ffbf1);
 }
 
 .App-container h1 {
