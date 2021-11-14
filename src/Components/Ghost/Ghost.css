@@ -24,6 +24,13 @@
     transform-origin: center center;
     
   }
+
+  @media screen and (max-width: 1000px) {
+    .ghost-container {
+      display: none;
+    }
+
+  }
   
   @keyframes shrink {
     0% {

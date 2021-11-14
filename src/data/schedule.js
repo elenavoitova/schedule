@@ -41,9 +41,9 @@ const art = {
     teacher: "Вiкторiя Монтвiлас"
 };
 
-const monday1 = [ world, math, eng, ukr1];
+const monday1 = [ world, math, eng, ukr1, ukr1];
 
-const monday2 = [ world, math, eng, ukr2];
+const monday2 = [ world, math, eng, ukr2, ukr2];
 
 const tuesday = [world, math, fiz, ukr1];  
 

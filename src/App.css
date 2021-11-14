@@ -20,15 +20,36 @@
   background-image: linear-gradient(to right top, #a2c3e7, #a5cce8, #abd4e7, #b5dce7, #c2e3e7, #c0e7e9, #bfeceb, #bef0ec, #abf3ed, #96f6ef, #7ef8f0, #5ffbf1);
 }
 
+
 .App-container h1 {
   position: absolute;
   left: 40%;
-  top: 5%
+  top: 4%
 }
 
 .select-group{
   position: absolute;
-    top: 10%;
+    top: 8%;
     right: 20%;
     display: inline-flex;
 }
+
+@media screen and (max-width: 1000px) {
+  .App-container {
+    padding: 100px 200px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .App-container h1 {
+    position: absolute;
+    left: 25%;
+    top: 15px;
+  }
+
+  .select-group{
+    position: absolute;
+      top: 70px;
+      right: 40%;
+  }
+} 
