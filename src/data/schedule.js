@@ -20,13 +20,14 @@ const ukr1 = {
 
 const ukr2 = {
     name: "Укр. мова",
-    zoom: "не монтвилас",
+    zoom: "https://us05web.zoom.us/j/82937865762?pwd=WVRvb0hXVE1FWnlVK1hNczVCajdrdz09",
     teacher: 'Анна Кримець'
 }
 
 const eng = {
     name: "Англ. мова",
-    teacher: "Анастасiя"
+    teacher: "Вiкторiя Монтвiлас",
+    zoom: "https://us05web.zoom.us/j/5023677910?pwd=UXlmdE9YV0taTWJLVWQ2SmdmVk44Zz09"
 };
 
 const fiz = {
@@ -40,9 +41,9 @@ const art = {
     teacher: "Вiкторiя Монтвiлас"
 };
 
-const monday1 = [ world, math, ukr1, eng, ukr1];
+const monday1 = [ world, math, eng, ukr1];
 
-const monday2 = [ world, math, eng, ukr2, ukr1];
+const monday2 = [ world, math, eng, ukr2];
 
 const tuesday = [world, math, fiz, ukr1];  
 
